@@ -1,10 +1,11 @@
 #ESER 2
 
-stringhe = []
+stringhe = [] # lista per memorizzare le stringhe
 
-lunghezza_precedente = 0
+lunghezza_precedente = 0 # lunghezza della stringa precedente
 
-while True:
+while True:# ciclo infinito per l'inserimento delle stringhe
+    #input dell'utente
     dato = input("inserisci una stringa (o 'fine' per terminare): ")
     if dato.lower() == "fine":
         break
