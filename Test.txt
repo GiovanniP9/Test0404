@@ -1,0 +1,34 @@
+Domanda 4:
+Una classe in Python è come uno stampino poiche consente di definire le strutture che raggruppano i dati e i comportamenti per la creazione di un oggetto. Il self nella classe serve per riferirsi all'oggetto creato.
+
+
+Domanda 6:
+In Python una collezione/aggregazione è un tipo di struttura dati che puo contenere più elementi che spesso sono dello stesso tipo ma possono includere anche tipi diversi.
+un esempio sono:
+1. LISTA: una collezione ORDINATA e MODIFICABILE di elementi. Le liste possono contenere valori di diversi tipi, come interi, stringhe, booleani e anche altre liste inoltre sono rappresentate dal tipo di dato list e sono racchiuse tra [].
+2. TUPLE: sono una struttura dati simile alle liste, ma con una differenza. le tuple sono immutabili, il che significa che una volta create, non possono essere modificate.
+3. INSIEMI: sono una struttura dati che rappresenta una collezione non ordinata e senza duplicati di elementi. sono utili quando si desidera memorizzare un insieme unico di valori o eseguire operazioni come unione, intersezione e differenza tra insiemi.
+
+
+DOMANDA 12:
+Le tre regole fondamentali dell'OOP sono:
+1. INCAPSULAMENTO: L'incapsulamento è il concetto che prevede che i dettagli interni di un oggetto (ESEMPIO variabili) siano nascosti dall'esterno. questo facilita la gestione del codice cosi da poter avere cambiamenti interni senza influenzare l'esterno.
+2. EREDITARIETÀ: permette a una classe figlia di ereditare le caratteristiche di una classe genitore. ESEMPIO print(a+b), il print stampera c che è il figlio di a e b
+3. POLIMORFISMO: Promuove la flessibilita del codice. Esempio lo stesso metodo puo comportarsi in modo diverso a seconda della classe.
+
+
+DOMANDA 14:
+Le funzioni in Python sono blocchi di codice autonomi che eseguono una determinata operazione Dimostrano implicitamente l’astrazione (poiche quando si chiama una funzione non serve sapere come funziona internamente) e possono essere usate, estese e modifiche in diverse maniera sia da noi che dal sistema stesso in base al contesto.
+Le funzioni consentono di organizzare il codice in unità modulari, che possono essere richiamate e riutilizzate in diverse parti di un programma.
+L'ASTRAZIONE : consente di nascondere i dettagli dell'implementazione e mostrare solo le funzionalità essenziali. Questo aiuta a scrivere codice più chiaro e manutenibile.
+
+
+DOMANDA 16:
+In Python, il controllo del flusso si riferisce alla gestione dell'esecuzione delle istruzioni del programma in base a determinate condizioni. Fanno parte del controllo di flusso le famiglie condizionali come IF-ELIF-ELSE e quelle cicliche come for, while, range.
+ IF : L'istruzione if viene utilizzata per eseguire un blocco di codice se una determinata condizione è vera.
+ELSE : L'istruzione else viene usata per definire un blocco di codice da eseguire se le condizioni precedenti risultano false.
+ELIF : l'istruzione elif per specificare ulteriori condizioni da verificare.
+per ogni condizione posso avere un if all'inizio, un else alla fine e infiniti elif in mezzo. un if può essere contenuto in un altro if
+WHILE:viene utilizzata per eseguire un blocco di codice finché una determinata condizione è vera. Prima di ogni iterazione, la condizione viene verificata e se è vera, il blocco di codice viene eseguito.
+FOR:L'istruzione for viene utilizzata per iterare su una sequenza di elementi o su un oggetto iterabile. ad ogni ciclo il blocco di codice all'interno dell'istruzione for viene eseguito.
+RANGE: viene usato insieme a for in cui è necessario iterare su un insieme di valori.
